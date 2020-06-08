@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pirate Translator</title>
+    <link rel="stylesheet" href="toPirate3.css">
+</head>
+
+<body>
+
+    <h3> <img src="pirate1.jpg" alt="Blackbeard">Land Lubber's Pirate Translator</h3>
+      <p>Simply click the buttons to translate words and/or phrases from English to Standard Pirate. </p>
+      <hr>
+      <br>
+
+      <!-- add this table to your toPirate3.html web page -->
+<table>
+    <tr>
+      <td class="category"> Greetings: &nbsp; </td>
+    </tr>
+    <tr>
+      <td class="category"> People: &nbsp;</td>
+    </tr>
+    <tr>
+      <td class="category"> Questions: &nbsp;</td>
+    </tr>
+    <tr>
+      <td class="category"> Articles: &nbsp;</td>
+    </tr>
+
+</table>
+
+      <textarea id="outBox" rows="3" cols="40"></textarea>
+
+    <button type="button" onclick="refreshPage()">Clear Words</button>
+
+  <script>
+  function refreshPage(){
+      window.location.reload();
+  }
+  </script>
+  <script type="text/javascript" src="toPirate3.js"></script>
+</body>
+
+</html>
